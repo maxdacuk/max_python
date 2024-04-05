@@ -1,4 +1,4 @@
-def mas_str_replace(a_str: str, a_search: str, a_replace_with) -> str:
+def max_str_replace(a_str: str, a_search: str, a_replace_with) -> str:
     i = 0
     a_str_len: int = len(a_str)
     a_search_len: int = len(a_search)
@@ -13,4 +13,4 @@ def mas_str_replace(a_str: str, a_search: str, a_replace_with) -> str:
     return replaced
 
 
-print(mas_str_replace('Hello world!', 'world', '5'))
+print(max_str_replace('Hello world!', 'world', '5'))
