@@ -1,6 +1,6 @@
 def max_substr_count(aString, needle):
     '''
-    The function searches overlapped substring occurences
+    The function searches overlapped substring occurrences
     '''
     max_count = 0
     needle_len = len(needle)
