@@ -9,6 +9,7 @@ for test_case in (
     (4, "* * - * *",     False,),
     (5, "59 23 31 12 *", True,),
     (6, "0  23 * * 6",   True,),
+    (6, "0     23 * * 6",   True,),
 
 ):
     r_prefix = f'Test case {test_case[0]} :: "{test_case[1]}"'
