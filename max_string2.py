@@ -6,7 +6,7 @@ class max_string2:
         replaced = ''
         i = 0
         while i < len(self.s):
-            if self.s[i:i+len(search)].lower() == search.lower():
+            if self.s[i:i+len(search)].lower() == search.lower(): # Since the data under the "search" variable is never changed, the .lower() here is a huge overhead!
                 replaced += replace
                 i += len(search)
             else:
