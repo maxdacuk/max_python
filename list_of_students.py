@@ -25,6 +25,6 @@ for student in students:
 
 # Створення дерева та збереження в XML файл
 tree = ET.ElementTree(root)
-tree.write("D:\\Python\\students.xml", encoding="utf-8", xml_declaration=True)
+tree.write("students.xml", encoding="utf-8", xml_declaration=True)
 
 print("XML-файл створено!")
